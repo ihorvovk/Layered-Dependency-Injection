@@ -19,13 +19,13 @@ class UserListViewModel: ObservableObject {
             self?.users = users
         }).store(in: &cancelBag)
         
-        service.loadUsers()
+        interactor.loadUsers()
     }
     
     // MARK: - Private
     
     @Injected(\.viewModel.appState) private var appState
-    @Injected(\.viewModel.gitHubInteractor) private var service
+    @Injected(\.viewModel.gitHubInteractor) private var interactor
     
     private var cancelBag = Set<AnyCancellable>()
 }
