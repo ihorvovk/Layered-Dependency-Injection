@@ -1,9 +1,8 @@
 //
 //  ViewModelInjection.swift
-//  ShopmonkeyApp
+//  GitHubUsers
 //
-//  Created by Ihor Vovk on 02.11.2021.
-//  Copyright © 2021 ShopMonkey. All rights reserved.
+//  Created by Ihor Vovk on 10.11.2021.
 //
 
 import Foundation

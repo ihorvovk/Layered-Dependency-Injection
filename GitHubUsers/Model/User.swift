@@ -1,6 +1,6 @@
 //
 //  User.swift
-//  DependencyInjection
+//  GitHubUsers
 //
 //  Created by Ihor Vovk on 10.11.2021.
 //
